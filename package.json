@@ -1,0 +1,23 @@
+{
+  "name": "catch",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node-dev ./bin/www"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.9",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "html-pdf": "^3.0.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "node-dev": "^7.0.0",
+    "phantomjs-prebuilt": "^2.1.16"
+  },
+  "devDependencies": {
+    "requests": "^0.3.0"
+  }
+}
